@@ -46,6 +46,5 @@ class ProdutosJunto{
    }
 
 }
-
-
+// teste be
 export default ProdutosJunto;
