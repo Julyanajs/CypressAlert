@@ -31,6 +31,19 @@ class ProdutosJunto{
     cy.url().should('eq', 'https://cotador.juntoseguros.com/#/produto/transito-aduaneiro') // => true
 
    }
+   //Select Administrativo de Credito Tributario
+   selectProductCredTributario(){
+    cy.get('.menu > :nth-child(4) > a').click({force:true});
+    cy.url().should('eq', 'https://cotador.juntoseguros.com/#/produto/creditos-tributarios') // => true
+
+   }
+
+   //Select Antecipacao de Recebiveis
+   selectProductAntRecebiveis(){
+    cy.get('.menu > :nth-child(5) > a').click({force:true});
+    cy.url().should('eq', 'https://cotador.juntoseguros.com/#/produto/antecipacao-recebiveis') // => true
+
+   }
 
 }
 

@@ -24,4 +24,17 @@ describe('Check products option on Menu website', () => {
         products.getProduct()
         products.selectProductTransitoAduan();
     })
+
+    it (' Check all options - Seguro Garantia- Administrativo - Credito Tributario', () => {
+        products.mainHome()
+        products.getProduct()
+        products.selectProductCredTributario();
+    }) 
+
+    it (' Check all options - Seguro Garantia- Antecipacao de Recebiveis', () => {
+        products.mainHome()
+        products.getProduct()
+        products.selectProductAntRecebiveis();
+    })
+
 })
