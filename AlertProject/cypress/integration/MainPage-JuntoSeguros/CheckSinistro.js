@@ -1,4 +1,4 @@
-import MainJunto from '/Users/jully/Desktop/Last/cypress/Methods/MainPage-Junto';
+import MainJunto from '/Users/jully/Desktop/GitHub Project/CypressAlert/AlertProject/cypress/Methods/MainPage-Junto';
 
 
 describe('CNPJ Invalido', () => {
@@ -22,6 +22,9 @@ describe('CNPJ Invalido', () => {
         page.getCNPJvalido()
         page.getAlertCPFvalido()
      })
+
+
+     // teste apenas 
  })     
        
     })

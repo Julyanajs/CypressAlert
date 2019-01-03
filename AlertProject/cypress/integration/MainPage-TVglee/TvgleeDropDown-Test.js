@@ -1,5 +1,5 @@
-import TvgleeDrop from '/Users/jully/Desktop/Last/cypress/Methods/TvgleeDropDown'
-import HomeTvglee from '/Users/jully/Desktop/Last/cypress/Methods/TvgleeHomePage'
+import TvgleeDrop from '/Users/jully/Desktop/CypressAlert/AlertProject/cypress/Methods/TvgleeDropDown'
+import HomeTvglee from '/Users/jully/Desktop/CypressAlert/AlertProject/cypress/Methods/TvgleeHomePage';
 
 
 describe ('Check Dropdown option on Tvglee Page', () => {

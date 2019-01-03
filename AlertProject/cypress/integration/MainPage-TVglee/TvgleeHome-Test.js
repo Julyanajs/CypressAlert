@@ -1,4 +1,4 @@
-import HomeTvglee from '/Users/jully/Desktop/Last/cypress/Methods/TvgleeHomePage';
+import HomeTvglee from '/Users/jully/Desktop/CypressAlert/AlertProject/cypress/Methods/TvgleeHomePage';
 
 describe('Check new option on Page', () => {
     const page = new HomeTvglee();
