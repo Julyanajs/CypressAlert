@@ -1,0 +1,14 @@
+
+{
+    "baseUrl": "http://qa.tvglee.com/",
+    "projectId": "rdqc2s",
+    "reporter": "junit",
+    "reporterOptions": {
+      "mochaFile": "results/my-test-output-mocha.xml",
+      "toConsole": true,
+    "viewportWidth": 1000,
+    "viewportHeight": 660
+   
+    }
+    
+  }
