@@ -13,9 +13,9 @@ class ProdutosJunto{
 
     //Select Adiantamento de Pagamento
     selectProductAdiantPgto(){
-    cy.get('#menu-produto > :nth-child(1) > .menu > :nth-child(1) > a').click({force:true});
-    
+    cy.get('#menu-produto > :nth-child(1) > .menu > :nth-child(1) > a').click({force:true}); 
     cy.url().should('eq', 'https://cotador.juntoseguros.com/#/produto/adiantamento-pagamento') // => true
+
     
     }
 
@@ -45,6 +45,29 @@ class ProdutosJunto{
 
    }
 
+   //Select Déposito Recursal
+   selectProductDepRecursal(){
+    cy.get('.menu > :nth-child(6) > a').click({force:true});
+    cy.url().should('eq', 'https://cotador.juntoseguros.com/#/produto/deposito-recursal') // => true
+
+
+   }
+
+   //Select Executante Concessionário
+   selectProductExecConcessionario(){
+    cy.get('.menu > :nth-child(7) > a').click({force:true});
+    cy.url().should('eq', 'https://cotador.juntoseguros.com/#/produto/executante-concessionario') // => true
+
+
+   }
+
+   //Select Executante Construtor/Forneedor ou prestador de serviço
+   selectProductExecPrestServico(){
+    cy.get('.menu > :nth-child(8) > a').click({force:true})
+    cy.url().should('eq', 'https://cotador.juntoseguros.com/#/produto/executante-construtor') // => true
+
+
+   }
 }
-// teste be
+
 export default ProdutosJunto;

@@ -1,4 +1,4 @@
-import MainJunto from '/Users/jully/Desktop/GitHub Project/CypressAlert/AlertProject/cypress/Methods/MainPage-Junto';
+import MainJunto from '/Users/Juliana/Desktop/GitHub/CypressAlert/AlertProject/cypress/Methods/MainPage-Junto';
 
 
 describe('CNPJ Invalido', () => {

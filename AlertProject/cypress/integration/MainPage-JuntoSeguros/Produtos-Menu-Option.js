@@ -1,4 +1,5 @@
-import ProdutosJunto from '/Users/jully/Desktop/GitHub Project/CypressAlert/AlertProject/cypress/Methods/Produtos-Junto';
+import ProdutosJunto from '/Users/Juliana/Desktop/GitHub/CypressAlert/AlertProject/cypress/Methods/Produtos-Junto';
+
 
 
 describe('Check products option on Menu website', () => {
@@ -37,4 +38,28 @@ describe('Check products option on Menu website', () => {
         products.selectProductAntRecebiveis();
     })
 
+
+    it (' Check all options - Seguro Garantia- Depósito Recursal', () => {
+        products.mainHome()
+        products.getProduct()
+        products.selectProductDepRecursal();
+    })   
+ 
+    
+
+    it (' Check all options - Seguro Garantia- Executante Concessionário', () => {
+        products.mainHome()
+        products.getProduct()
+        products.selectProductExecConcessionario();
+
+    })    
+
+    it (' Check all options - Seguro Garantia- Executante Construtor/Fornecedor', () => {
+        products.mainHome()
+        products.getProduct()
+        products.selectProductExecPrestServico();
+
+
+        
+    })   
 })
